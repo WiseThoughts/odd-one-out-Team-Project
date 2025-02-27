@@ -5,7 +5,7 @@ import './background.css';
 const Background = () => {
     useEffect(() => {
         const letters = "abcdefghijklmnopqrstuvwxyz";
-        const numLetters = 20; //adjust for more or less letters
+        const numLetters = 100; //adjust for more or less letters
         const container = document.getElementById("background-container");
         if (!container) return;
         container.innerHTML = "";
