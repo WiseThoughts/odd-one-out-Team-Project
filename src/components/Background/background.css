@@ -4,7 +4,7 @@
     width: 100vw;
     top: 0;
     left: 0;
-    z-index: -1;
+    z-index: -1; /*DON'T EDIT THIS LINE*/
     overflow: hidden;
     position: fixed;
     font-family: Arial, sans-serif;
@@ -16,12 +16,12 @@
     font-size: 3rem;
     white-space: nowrap;
     user-select: none;
-    animation: moveDiagonal 15s linear infinite;
+    animation: moveDiagonal 10s linear infinite;
 }
 
 @keyframes moveDiagonal{
     from{
-        transform: translate(-50, -50);
+        transform: translate(-100, -100);
     }
     to{
         transform: translate(100vw, 100vh);
