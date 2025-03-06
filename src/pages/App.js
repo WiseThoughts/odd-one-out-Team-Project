@@ -1,14 +1,15 @@
 import React from 'react';
-import Background from '../components/Background/background';
 import './App.css';
+import Background from '../components/Background/background';
+import Title from '../components/Title/title';
+
 
 function App() {
   return (
     <div>
+      <Title />
       <Background />
-        <p style={{color: "white", textAlign: "center"}}>
-          The start of the ODD ONE OUT Team Project.
-        </p>
+        
     </div>
   );
 }

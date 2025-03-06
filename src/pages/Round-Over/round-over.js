@@ -1,10 +1,15 @@
 import React from 'react';
 import './round-over.css';
 import Background from '../../components/Background/background';
+import Title from '../../components/Title/title';
+
 
 const roundOver = () => {
   return (
-    <div>round-over</div>
+    <div>
+        <Title />
+        <Background />
+    </div>
   )
 }
 
