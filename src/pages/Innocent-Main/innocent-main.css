@@ -1,0 +1,35 @@
+.innocentMain {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.word-section {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 15px;
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: rgb(6, 196, 53);
+    margin: 20px;
+}
+
+.Chat{
+    width: 40%;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 30px;
+    color: white;
+}
+
+.Chat h3 {
+    margin-bottom: 10px;
+    color: #f1f1f1;
+}
