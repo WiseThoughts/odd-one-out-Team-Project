@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e6e6e6;
+    text-align: center;
+}
+.container {
+    width: 50%;
+    margin: 50px auto;
+    background: #ccc;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.game-link {
+    margin: 20px 0;
+    font-weight: bold;
+}
+.start-btn {
+    background: gray;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
