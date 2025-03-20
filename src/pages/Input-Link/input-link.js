@@ -9,6 +9,12 @@ const inputLink = () => {
     <div>
         <Title />
         <Background />
+        <div className="container">
+            <h3>Input game Link</h3>
+            <input type="text" placeholder="Enter game link here..." />
+            <br />
+            <button className="join-button">Join game</button>
+        </div>
     </div>
   )
 }
