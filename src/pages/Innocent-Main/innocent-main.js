@@ -1,3 +1,4 @@
+
 // src/pages/Innocent-Main/innocent-main.js
 import React, { useState } from "react";
 import "./innocent-main.css";
@@ -69,3 +70,4 @@ const InnocentMain = () => {
 };
 
 export default InnocentMain;
+

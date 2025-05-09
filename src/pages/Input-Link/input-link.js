@@ -1,3 +1,4 @@
+
 // src/pages/InputLink.js
 import React from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
@@ -42,3 +43,4 @@ const InputLink = () => {
 };
 
 export default InputLink;
+

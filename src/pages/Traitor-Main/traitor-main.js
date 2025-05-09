@@ -1,3 +1,4 @@
+
 import React, { useEffect, useState } from "react";
 import { useGame } from "../../context/GameLogic";
 import Background from "../../components/Background/background";
@@ -87,3 +88,4 @@ const TraitorView = () => {
 };
 
 export default TraitorView;
+

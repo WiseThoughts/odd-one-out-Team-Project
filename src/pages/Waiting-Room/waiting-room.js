@@ -1,3 +1,4 @@
+
 // src/pages/Waiting-Room/waiting-room.js
 import React, { useEffect, useState } from "react";
 import { useParams, useNavigate } from "react-router-dom";
@@ -65,3 +66,4 @@ function WaitingRoom() {
 }
 
 export default WaitingRoom;
+
