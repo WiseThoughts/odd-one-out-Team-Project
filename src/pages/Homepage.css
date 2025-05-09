@@ -1,0 +1,64 @@
+/* Make introBox + controls the same width and centered */
+.flexContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 10%;
+  margin-top: 120px;
+}
+
+/* Your instructions box */
+.introBox {
+  background-color: rgb(174, 203, 236);
+  width: 80%;
+  margin-bottom: 30px;
+  padding: 60px 40px;
+  border-radius: 15px;
+  text-align: center;
+}
+
+/* Controls container now also 80% width and centered */
+.controls {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Inputs row: stretch inputs to edges */
+.inputRow {
+  display: flex;
+  justify-content: space-between; /* pushes the two inputs to the edges */
+  margin-bottom: 20px;
+}
+
+.inputRow input {
+  width: 48%;               /* two inputs at ~50% each */
+  padding: 12px 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+/* Buttons row: same treatment */
+.buttonRow {
+  display: flex;
+  justify-content: space-between; /* pushes buttons to same edges */
+}
+
+.gameLinkButtons {
+  background-color: rgb(174, 203, 236);
+  border: none;
+  color: rgb(10, 26, 43);
+  padding: 20px 32px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 15px;
+  width: 48%;                 /* keep same width as inputs */
+  text-align: center;
+}
+
+.gameLinkButtons:hover {
+  background-color: rgb(30, 77, 128);
+  color: white;
+}

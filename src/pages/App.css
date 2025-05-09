@@ -1,38 +1,5 @@
+
 *{
   margin: 0;
-}
 
-.flexContainer {
-  display: flex;
-  flex-direction: column; /* Arrange items vertically */
-  height: 400px;
-  padding: 0% 10%;
-  justify-content: center;
-  align-items: center; /* Center all items */
-}
-
-.introBox {
-  background-color:blue;
-  width: 80%; /* You can adjust this width as per your design */
-  margin-top: 230px;
-  margin-bottom: 30px;
-  padding: 100px 60px;
-  border-radius: 15px;
-  text-align: center;
-}
-
-.gameLinkButtons {
-  background-color: blue;
-  border: none;
-  color: white;
-  padding: 20px 32px;
-  text-align: center;
-  font-size: 16px;
-  margin: 0 30px; /* Space between buttons */
-  cursor: pointer;
-  border-radius: 15px;
-}
-
-.gameLinkButtons:hover {
-  background-color: darkblue; /* Optional: add hover effect */
 }

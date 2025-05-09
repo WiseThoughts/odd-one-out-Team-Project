@@ -1,0 +1,90 @@
+/* round-over.css */
+
+/* full-screen behind your <Background /> */
+.round-over-container {
+    width: 100vw;
+    min-height: 100vh;
+    font-family: sans-serif;
+    /* background is handled by <Background /> */
+  }
+  
+  /* exactly the same card style you used elsewhere */
+  .content-card {
+    width: 80%;
+    max-width: 600px;
+    margin: 40px auto;
+    background-color: rgb(174, 203, 236);
+    color: rgb(10, 26, 43);
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    text-align: center;
+  }
+  
+  /* Round Over heading */
+  .content-card h2 {
+    margin-top: 0;
+    font-size: 2rem;
+  }
+  
+  /* result info */
+  .result-info p {
+    font-size: 1.2rem;
+    margin: 0.5rem 0;
+  }
+  
+  /* players & scores list */
+  .players-list {
+    text-align: left;
+    margin: 1.5rem 0;
+  }
+  
+  .players-list ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .players-list li {
+    background-color: #ddd;  /* same light grey boxes as elsewhere */
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    margin-bottom: 0.5rem;
+    color: rgb(10, 26, 43);
+  }
+  
+  /* buttons row */
+  .buttons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1.5rem;
+  }
+  
+  .another-round-btn,
+  .close-room-btn {
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  /* green & red exactly as elsewhere */
+  .another-round-btn {
+    background-color: #2ecc71;
+    color: white;
+  }
+  .another-round-btn:hover {
+    background-color: #27ae60;
+  }
+  
+  .close-room-btn {
+    background-color: #e74c3c;
+    color: white;
+  }
+  .close-room-btn:hover {
+    background-color: #c0392b;
+  }
+  
