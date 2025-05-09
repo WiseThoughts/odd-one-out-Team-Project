@@ -1,0 +1,60 @@
+/* Match the same “intro card” look */
+.container {
+    width: 80%;
+    max-width: 600px;
+    margin: 80px auto;                         /* center with top spacing */
+    background-color: rgb(174, 203, 236);
+    color: rgb(10, 26, 43);
+    padding: 60px 40px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  }
+  
+  /* Headings */
+  .container h3 {
+    font-size: 1.8rem;
+    margin-bottom: 12px;
+  }
+  
+  .container h4 {
+    font-size: 1.4rem;
+    margin-top: 24px;
+    margin-bottom: 8px;
+  }
+  
+  /* Paragraph */
+  .container p {
+    font-size: 1.2rem;
+    margin: 8px 0 16px;
+  }
+  
+  /* Player list */
+  .container ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 24px;
+  }
+  
+  .container ul li {
+    font-size: 1.1rem;
+    margin: 4px 0;
+  }
+  
+  /* Join Game button */
+  .join-button {
+    background-color: rgb(30, 77, 128);
+    color: white;
+    padding: 16px 32px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background-color 0.2s, color 0.2s;
+  }
+  
+  .join-button:hover {
+    background-color: #2ecc71;
+    color: rgb(30, 77, 128);
+  }
+  

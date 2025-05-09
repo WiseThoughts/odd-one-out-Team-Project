@@ -1,0 +1,54 @@
+/* container inside RoomCreation */
+.room-creation-container .container {
+    width: 80%;
+    max-width: 600px;
+    margin: 80px auto;                          /* pushed down from top */
+    background-color: rgb(174, 203, 236) !important;
+    color: rgb(10, 26, 43) !important;
+    padding: 60px 40px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  }
+  
+  /* all <p> labels inside */
+  .room-creation-container .container p {
+    font-size: 1.2rem;
+    margin: 16px 0 8px;
+    color: rgb(10, 26, 43) !important;
+  }
+  
+  /* the code itself */
+  .room-creation-container .container .game-link {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 12px 0 24px;
+    color: rgb(10, 26, 43) !important;
+  }
+  
+  /* player count */
+  .room-creation-container .container .players-count {
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: rgb(10, 26, 43) !important;
+  }
+  
+  /* Next button */
+.room-creation-container .container .start-btn {
+    background-color: rgb(30, 77, 128);
+    color: rgb(174, 203, 236);
+    padding: 16px 32px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background-color 0.2s, color 0.2s;
+    margin-top: 16px;
+  }
+  
+  /* Hover state */
+  .room-creation-container .container .start-btn:hover {
+    background-color: #2ecc71;
+    color: rgb(30, 77, 128);
+  }
+  

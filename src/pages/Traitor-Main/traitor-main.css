@@ -1,0 +1,120 @@
+/* src/pages/Traitor-Main/traitor-main.css */
+
+/* Full-screen wrapper (Background sits behind) */
+.traitor-container {
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-family: sans-serif;
+}
+
+/* The pale-blue card */
+.content-card {
+  width: 80%;
+  max-width: 800px;
+  margin: 40px auto;
+  background-color: rgb(174, 203, 236);
+  color: rgb(10, 26, 43);
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+/* RED ROLE BANNER */
+.traitor-banner {
+  background-color: #e74c3c;
+  color: white;
+  font-weight: bold;
+  font-size: 1.4rem;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  display: inline-block;
+  margin-bottom: 16px;
+}
+
+/* Header row: back + points */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.back-button {
+  background: none;
+  border: none;
+  color: rgb(10, 26, 43);
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.points-area span {
+  background-color: #ddd;
+  color: #333;
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  margin-left: 0.5rem;
+}
+
+/* Inner screen */
+.traitor-screen {
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Subtitle */
+.pick-word-title {
+  font-size: 1.4rem;
+  margin: 12px 0 20px;
+}
+
+/* Options grid */
+.word-options {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+  margin-bottom: 24px;
+}
+
+.word-option {
+  background-color: #ccc;         /* slightly darker than card */
+  border-radius: 8px;
+  padding: 12px 20px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  border: 2px solid transparent;
+  transition: background-color 0.2s, border-color 0.2s;
+}
+
+.word-option:hover {
+  background-color: #bbb;
+}
+
+.word-option.selected {
+  background-color: #aaa;
+  border-color: rgb(10, 26, 43);
+}
+
+/* Submit button */
+.submit-button {
+  background-color: rgb(10, 26, 43);  /* dark-blue base */
+  color: white;
+  font-size: 1.1rem;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 30px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.submit-button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+/* After click */
+.submit-button.submitted {
+  background-color: #2ecc71;  /* green */
+  color: white;
+}

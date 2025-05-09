@@ -1,0 +1,120 @@
+/* src/pages/Innocent-Main/innocent-main.css */
+
+/* Full-screen wrapper uses Background component behind */
+.innocent-container {
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-family: sans-serif;
+}
+
+/* The “card” */
+.content-card {
+  width: 80%;
+  max-width: 800px;
+  margin: 40px auto;
+  background-color: rgb(174, 203, 236);
+  color: rgb(10, 26, 43);
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+/* Header row */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.back-button {
+  background: none;
+  border: none;
+  color: rgb(10, 26, 43);
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.points-area span {
+  background-color: #ddd;
+  color: #333;
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  margin-left: 0.5rem;
+}
+
+/* Inner screen */
+.innocent-screen {
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Word banner larger */
+.word-banner {
+  background-color: #79c65e;
+  color: white;
+  font-weight: bold;
+  font-size: 2.5rem;       /* bigger */
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+/* Title */
+.pick-traitor-title {
+  font-size: 1.4rem;
+  margin: 12px 0 20px;
+}
+
+/* Player options row */
+.player-options {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+  margin-bottom: 24px;
+}
+
+.player-option {
+  background-color: #ddd;
+  border-radius: 8px;       /* rectangle, not circle */
+  padding: 12px 20px;
+  font-size: 1.1rem;        /* bigger text */
+  cursor: pointer;
+  border: 2px solid transparent;
+  transition: background-color 0.2s, border-color 0.2s;
+}
+
+.player-option:hover {
+  background-color: #ccc;
+}
+
+.player-option.selected {
+  background-color: rgb(200, 200, 200);
+  border-color: rgb(10, 26, 43);
+}
+
+/* Submit button */
+.submit-button {
+  background-color: rgb(10, 26, 43);  /* dark blue base */
+  color: white;
+  font-size: 1.1rem;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 30px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.submit-button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+/* After clicked */
+.submit-button.submitted {
+  background-color: #2ecc71;  /* green */
+  color: white;
+}

@@ -1,0 +1,69 @@
+/* Wrap the entire card */
+.waiting-room-container {
+    width: 80%;
+    max-width: 600px;
+    margin: 80px auto;                            /* center on page with some top space */
+    background-color: rgb(174, 203, 236);         /* same as intro box */
+    color: rgb(10, 26, 43);                       /* same text color */
+    padding: 60px 40px;
+    border-radius: 15px;
+    text-align: center;                           /* center headings, list, buttons */
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  }
+  
+  /* Room code & subtitle */
+  .waiting-room-container h2,
+  .waiting-room-container h3 {
+    margin: 12px 0;
+  }
+  
+  /* Player list */
+  .waiting-room-container ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+  }
+  
+  .waiting-room-container ul li {
+    font-size: 1.1rem;
+    margin: 6px 0;
+  }
+  
+  /* Button container: center and add spacing */
+  .button-container {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1.5rem;
+  }
+  
+  /* Ready & Force Start buttons */
+  .ready-btn,
+  .master-btn {
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 8px;       /* match rounded style */
+    cursor: pointer;
+    font-size: 1rem;
+    min-width: 120px;
+    transition: all 0.2s;
+  }
+  
+  .ready-btn {
+    background-color: #3498db;
+    color: white;
+  }
+  
+  .ready-btn.ready-active {
+    background-color: #2ecc71;
+  }
+  
+  .master-btn {
+    background-color: #e74c3c;
+    color: white;
+  }
+  
+  .master-btn:hover {
+    opacity: 0.9;
+  }
+  

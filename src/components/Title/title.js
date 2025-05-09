@@ -4,7 +4,7 @@ import './title.css';
 const title = () => {
 
   return (
-    <div>title</div>
+    <div className='Title'>ODD ONE OUT - TEAM PROJECT</div>
   )
 }
 
